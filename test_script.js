@@ -4,4 +4,4 @@ function domainName(url){
     url = url.replace("www.", '');
     return url.split('.')[0];
   };
-  console.log(domainName('www.google.com'))
+  console.log(domainName('www.yandex.ru'))
